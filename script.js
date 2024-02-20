@@ -18,9 +18,9 @@ const checkIfPalindrome = () => {
   let inputWithoutSpecialCharactersReversed = listReversed.join("")
   console.log("Regular: ", inputWithoutSpecialCharacters, " Reversed: ", inputWithoutSpecialCharactersReversed)
   if (inputWithoutSpecialCharacters.toLowerCase() === inputWithoutSpecialCharactersReversed.toLowerCase()) {
-    result.innerHTML = `${input.value} is a palindrome`
+    result.innerHTML = `${input.value} is a palindrome &#128513;`
   } else {
-    result.innerHTML = `${input.value} is not a palindrome`
+    result.innerHTML = `${input.value} is not a palindrome &#128530;`
 
   }
 }
