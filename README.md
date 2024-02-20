@@ -1,4 +1,4 @@
-#isItAPalindrome
+
 
 This project takes a text entry and returns if it's a palindrome or not. Just a small project I did in a few hrs.
 
